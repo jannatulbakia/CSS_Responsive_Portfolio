@@ -1,0 +1,98 @@
+body{
+    margin: 35px 100px;
+}
+.intro-text-section h1{
+    font-size:xx-large;
+    color: black;
+    
+}
+.intro-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    padding: 15px 0px;
+    background-color: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.intro-section:hover{
+    background-color: plum;
+}
+.intro-image-section img{
+    width: 230px;
+    height: 300px;
+
+}
+.about-text-section h1{
+    font-size: xx-large;
+    
+}
+.about-text-section{
+    width: 500px;
+}
+.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: papayawhip;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    transition-duration: 1s;  
+}
+.about-section:hover{
+    background-color: cadetblue;
+
+}
+.about-image-section img{
+    width: 530px;
+    height: 350px;
+}
+.whatIdo-section{
+    margin: 60px 0px;
+    background-color: lavender;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+.whatIdo-card-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.whatIdo-card-section div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    width: 270px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 70% 68% 72% 70% / 0% 100% 100% 0%  ;
+    background-color: thistle;   
+    transition-duration:1s ;
+}
+.whatIdo-card-section div:hover{
+    background-color: salmon;
+}
+.Footer-section p{
+    color: dimgray;
+}
+@media only screen and (max-width: 620px){
+    body{
+        margin: 40px 10px;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatIdo-card-section{
+        display: flex;
+        flex-direction : column;
+    }
+
+}
