@@ -89,6 +89,11 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .about-text-section{
+        display: flex;
+        flex-direction: column;
+
+    }
 
     .whatIdo-card-section{
         display: flex;
