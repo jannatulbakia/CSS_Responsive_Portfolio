@@ -92,8 +92,6 @@ body{
     .about-text-section{
         display: flex;
         flex-direction: column;
-        width: 100px;
-
     }
 
     .whatIdo-card-section{
